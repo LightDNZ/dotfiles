@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.fontSize": 12,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.minimap.side": "left",
+  "editor.fontFamily": "'JetbrainsMono Nerd Font','Maple Mono', monospace",
+    "extensions.autoUpdate": false,
+    "workbench.statusBar.visible": false,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off",
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.env.linux": {},
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    "console-ninja.featureSet": "Community",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  }
+  
