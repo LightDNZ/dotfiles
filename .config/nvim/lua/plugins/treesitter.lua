@@ -7,7 +7,7 @@ return {
       highlight = { enable = true },
       indent = { enable = true },
       folding = { enable = true },  -- Enable Treesitter-based folding
-      ensure_installed = { "python" },
+      ensure_installed = { "php", "sql", "javascript", "vue", "html", "css", "json", "lua", "bash", "python" },
     })
 
     -- Set fold method to use Treesitter

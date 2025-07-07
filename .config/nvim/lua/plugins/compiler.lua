@@ -14,9 +14,11 @@ return {
         cpp = { "g++ % -o %< && ./%<" },
         rust = { "cargo run" },
         lua = { "lua %" },
+        php = { "php %" },
+        mysql = { "mysql -u root -p" },
+        nuxt = { "npm run dev" },
       },
     },
-    -- Use keys field for lazy.nvim to create keymaps and trigger loading
     keys = {
       { "<F6>", "<cmd>CompilerOpen<cr>", noremap = true, silent = true, desc = "Open Compiler" },
       { "<S-F6>", "<cmd>CompilerStop<cr><cmd>CompilerRedo<cr>", noremap = true, silent = true, desc = "Redo Compile" },
@@ -44,4 +46,3 @@ return {
     end,
   },
 }
-
