@@ -1,0 +1,8 @@
+* {
+    main-bg:            #02081BB3;
+    main-fg:            #CCD8FFE6;
+    main-br:            #5F627CE6;
+    main-ex:            #323040E6;
+    select-bg:          #F0DDAA80;
+    select-fg:          #524729E6;
+}
