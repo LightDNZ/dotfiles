@@ -5,7 +5,7 @@ include $HOME/.config/i3/rose-pine.conf
 # set super key
 set $mod Mod4
 
-exec --no-startup-id xrandr --output eDP-1 --mode 1366x768 --primary --output HDMI-1 --mode 1920x1080 --right-of eDP-1
+exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 60 --primary
 
 # start picom
 exec --no-startup-id picom
